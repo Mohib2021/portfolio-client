@@ -1,0 +1,99 @@
+[
+	{
+		"_id": "01",
+		"name": "Car Galaxy",
+		"image": [
+			"https://i.ibb.co/7p8sP5W/car-galaxy-1.png",
+			"https://i.ibb.co/HTTHRBx/car-galaxy-2.png",
+			"https://i.ibb.co/TgDC7qd/car-galaxy-3.png",
+			"https://i.ibb.co/qnCfTLR/car-galaxy-4.png"
+		],
+		"description": "We provide one of the most popular cars around the world. To provide this service we have some amazing sample of the cars that you can see by simply going to our official website. The main fundamental goal of our website is to give you the modern performance and outlook based cars.",
+		"bulletPoint": [
+			"Different types of dashboard for user and admin.",
+			"Rating system was implemented for user.",
+			"User can purchase any of the cars.",
+			"Ensuring your satisfaction for buying.",
+			"Making your personal life more enjoyable."
+		],
+		"technology": [
+			"HTML",
+			"CSS",
+			"Bootstrap",
+			"React Bootstrap",
+			"MUI",
+			"Firebase",
+			"React",
+			"Node",
+			"Express",
+			"MongoDB"
+		],
+		"tools": ["Git, GitHub", "Firebase", "Heroku"],
+		"liveSite": "https://car-galaxy-b3c97.web.app/",
+		"ServerSide": "https://github.com/Mohib2021/Car-Galaxy-Server",
+		"ClientSide": "https://github.com/Mohib2021/Car-Galaxy-Client"
+	},
+
+	{
+		"_id": "02",
+		"name": "World Tour",
+		"image": [
+			"https://i.ibb.co/LSt7gBt/world-tuor-1.png",
+			"https://i.ibb.co/k2Cjq3x/world-tour-2.png",
+			"https://i.ibb.co/QPT1RxQ/world-tour-3.png",
+			"https://i.ibb.co/Wn857rw/world-tour-4.png"
+		],
+		"description": "We have tour system of the most popular places all over the world. People who have free time or have a vacation in a particular can visit our package's place with high security and safety. Our main goal is to let you know and explore the world though it's not a regular basis tour.",
+		"bulletPoint": [
+			"You can give booking for any of the particular place.",
+			"You can Manage all of the bookings.",
+			"You can add a new place in the packages.",
+			"Ensuring your safety while travelling.",
+			"Making your life more meaningful and enjoyable."
+		],
+		"technology": [
+			"HTML",
+			"CSS",
+			"Bootstrap",
+			"React Bootstrap",
+			"Firebase",
+			"React",
+			"Node",
+			"Express",
+			"MongoDB"
+		],
+		"tools": ["Git, GitHub", "Firebase", "Heroku"],
+		"liveSite": "https://world-tour-144cf.web.app/",
+		"ClientSide": "https://github.com/Mohib2021/Travel-Around-The-World-Client",
+		"ServerSide": "https://github.com/Mohib2021/Travel-Around-The-World-Server"
+	},
+	{
+		"_id": "03",
+		"name": "The Royal Gym",
+		"image": [
+			"https://i.ibb.co/pR66Kfg/master-gym-1.png",
+			"https://i.ibb.co/Xz6pz6r/master-gym-2.png",
+			"https://i.ibb.co/vXMB22W/master-gym-3.png",
+			"https://i.ibb.co/crPds58/master-gym-4.png"
+		],
+		"description": "We provide the best way to gym to make your health fit every time with the best tips and tricks. Also the instruction that we provide is the well known instruction that you might have never got. We feel happy by helping the people to make their life meaningful.",
+		"bulletPoint": [
+			"Different type of health services.",
+			"Firebase authentication is applied.",
+			"Privet route implemented.",
+			"Not only physical but also ensuring mental health care.",
+			"Making your life more enjoyable."
+		],
+		"technology": [
+			"React",
+			"HTML",
+			"CSS",
+			"Bootstrap",
+			"React Bootstrap",
+			"Firebase"
+		],
+		"tools": ["Git", "GitHub", "Firebase"],
+		"liveSite": "https://mastering-gym.web.app/",
+		"ClientSide": "https://github.com/Mohib2021/The-Royal-Gym"
+	}
+]
