@@ -6,6 +6,8 @@ import NotFound from "./components/NotFound/NotFound";
 import Navigation from "./components/Shared/Header/Navigation/Navigation";
 import Blogs from "./components/Blogs/Blogs";
 import PortfolioDetails from "./components/PortfolioDetails/PortfolioDetails";
+import Footer from "./components/Shared/Footer/Footer";
+
 function App() {
 	return (
 		<Router>
@@ -18,6 +20,7 @@ function App() {
 				<Route path="/home/:_id" element={<PortfolioDetails />} />
 				<Route path="*" element={<NotFound />} />
 			</Routes>
+			<Footer />
 		</Router>
 	);
 }

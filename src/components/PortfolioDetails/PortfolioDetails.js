@@ -37,50 +37,63 @@ function PortfolioDetails() {
 							<ShowImg key={index} img={singleImg} />
 						))}
 				</Row>
-				<Row className="g-4 mt-4">
-					<Col md={6} sm={12}>
-						<div>
-							<div className="mb-3">
-								<h5 className="fw-bold mb-3">Key Features :</h5>
-								{bulletPoint?.length &&
-									bulletPoint.map((point, index) => (
-										<BulletPoint key={index} point={point} />
-									))}
-							</div>
-							<h5 className="fw-bold mb-3">Description :</h5>
-							<p>{description}</p>
-							<a rel="noopener noreferrer" href={liveSite} target={"_blank"}>
-								<button className="btn btn-dark">Live Website</button>
-							</a>
-							<a rel="noopener noreferrer" href={ClientSide} target="_blank">
-								<button className="ms-2 btn btn-dark">Client Side Code</button>
-							</a>
-							{ServerSide && (
-								<a rel="noopener noreferrer" href={ServerSide} target="_blank">
-									<button className="ms-0 ms-md-2 mt-2 mt-md-0 btn btn-dark">
-										Server Side Code
+				<div
+					style={{ boxShadow: "0px 0px 20px gray", padding: "2rem" }}
+					className="mt-4 mt-md-5"
+				>
+					<Row className="g-4 ">
+						<Col md={6} sm={12}>
+							<div>
+								<div className="mb-3">
+									<h5 className="fw-bold mb-3">Key Features :</h5>
+									{bulletPoint?.length &&
+										bulletPoint.map((point, index) => (
+											<BulletPoint key={index} point={point} />
+										))}
+								</div>
+								<h5 className="fw-bold mb-3">Description :</h5>
+								<p>{description}</p>
+								<a rel="noopener noreferrer" href={liveSite} target={"_blank"}>
+									<button className="btn btn-dark">Live Website</button>
+								</a>
+								<a rel="noopener noreferrer" href={ClientSide} target="_blank">
+									<button className="ms-2 btn btn-dark">
+										Client Side Code
 									</button>
 								</a>
-							)}
-						</div>
-					</Col>
-					<Col md={6} sm={12}>
-						<div>
-							<div>
-								<h5 className="fw-bold mb-3">Used Technology :</h5>
-								{technology?.length &&
-									technology.map((tech, index) => (
-										<Technology key={index} tech={tech} />
-									))}
+								{ServerSide && (
+									<a
+										rel="noopener noreferrer"
+										href={ServerSide}
+										target="_blank"
+									>
+										<button className="ms-0 ms-md-2 mt-2 mt-md-0 btn btn-dark">
+											Server Side Code
+										</button>
+									</a>
+								)}
 							</div>
+						</Col>
+						<Col md={6} sm={12}>
 							<div>
-								<h5 className="fw-bold my-3">Used Tools :</h5>
-								{tools?.length &&
-									tools.map((tool, index) => <Tools key={index} tool={tool} />)}
+								<div>
+									<h5 className="fw-bold mb-3">Used Technology :</h5>
+									{technology?.length &&
+										technology.map((tech, index) => (
+											<Technology key={index} tech={tech} />
+										))}
+								</div>
+								<div>
+									<h5 className="fw-bold my-3">Used Tools :</h5>
+									{tools?.length &&
+										tools.map((tool, index) => (
+											<Tools key={index} tool={tool} />
+										))}
+								</div>
 							</div>
-						</div>
-					</Col>
-				</Row>
+						</Col>
+					</Row>
+				</div>
 			</Container>
 		</div>
 	);
